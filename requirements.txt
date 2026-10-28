@@ -1,6 +1,6 @@
-torch
-skimage
-numpy
-matplotlib
-argparse
-PIL
+torch==2.4.1
+numpy==1.23.5
+scikit-image==0.21.0
+matplotlib==3.7.3
+Pillow==10.4.0
+ipython==8.12.3

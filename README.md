@@ -1,3 +1,38 @@
+AI image Colorrization project
+
+project overview
+
+This project explores AI-based image colorization using pretrained deep learning models. It converts grayscale images into color images using the ECCV 2016 and SIGGRAPH 2017 models.
+
+My Work
+* Set up the project environment and dependencies.
+* Ran the image colorization demo.
+* Tested the ECCV 2016 and SIGGRAPH 2017 models.
+* Saved and compared the generated colorization results.
+
+Project Results
+saved-eccv16.png
+saved-siggraph17.png
+ 
+How to Run
+Clone this repository:git clone https://github.com/RC0619/colorization-project.git
+cd colorization-project
+Install the dependencies:pip install -r requirements.txt
+
+Run the project
+colorize an input iamge:python demo_release.py -i imgs/ansel_adams3.jpg
+
+
+
+
+
+
+
+
+
+
+
+
 <!--<h3><b>Colorful Image Colorization</b></h3>-->
 ## <b>Colorful Image Colorization</b> [[Project Page]](http://richzhang.github.io/colorization/) <br>
 [Richard Zhang](https://richzhang.github.io/), [Phillip Isola](http://web.mit.edu/phillipi/), [Alexei A. Efros](http://www.eecs.berkeley.edu/~efros/). In [ECCV, 2016](http://arxiv.org/pdf/1603.08511.pdf).
